@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical">
+
+    <Button android:text="@string/callPayload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="callPayload"
+        android:layout_gravity="center"
+        android:layout_marginTop="6dip"></Button>
+    <Button android:text="@string/smsPayload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="smsPayload"
+        android:layout_gravity="center"
+        android:layout_marginTop="6dip"></Button>
+     <Button android:text="@string/tweetPayload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="tweetPayload"
+        android:layout_gravity="center"
+        android:layout_marginTop="6dip"></Button>
+    <Button android:text="@string/resetPayload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="resetPayload"
+        android:layout_gravity="center"
+        android:layout_marginTop="6dip"></Button>
+    <Button android:text="@string/marketPayload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="marketPayload"
+        android:layout_gravity="center"
+        android:layout_marginTop="6dip"></Button>
+    <Button android:text="@string/facebookPayload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="facebookPayload"
+        android:layout_gravity="center"
+        android:layout_marginTop="6dip"></Button>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tapjacking Framework</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+	<string name="fin">Fin del juego</string>
+	<string name="callPayload">Call</string>
+	<string name="smsPayload">SMS</string>
+	<string name="marketPayload">Install app</string>
+	<string name="resetPayload">Wipe the device</string>
+	<string name="tweetPayload">Tweet something</string>
+	<string name="facebookPayload">Share this app on FB</string>
+	
+</resources>
